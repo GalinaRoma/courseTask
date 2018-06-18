@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Results</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div style="width: 400px; height: 400px; margin: auto;">
+            <canvas id="myChart" width="300" height="300"></canvas>
+        </div>
+        <ul class="first"></ul>
+        <ul class="second" ></ul>
+        <ul class="third" ></ul>
+        <script src="draw.js"></script>
+        <script>drawChart({{fromMenu}}, {{fromHeader}}, {{withChat}}); draw()</script>
+    </body>
+</html>

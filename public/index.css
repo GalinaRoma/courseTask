@@ -1,0 +1,27 @@
+ul {
+	overflow: hidden;
+	list-style: none;
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.3em 1em;
+	color: #fff;
+	border-right: 0.1em solid #fff;
+	border-radius: 0 1em 1em 0;
+}
+.li1
+{
+	box-shadow: 3px 0 2px 0 rgba(54, 162, 235, 0.8);
+	background: linear-gradient(to right, rgba(245, 90, 180, 0.6) 0%, rgba(54, 162, 235, 0.8) 100%);
+}
+.li2
+{
+	box-shadow: 3px 0 2px 0 rgba(255, 206, 86, 0.8);
+	background: linear-gradient(to right, rgba(245, 90, 180, 0.6) 0%, rgba(255, 206, 86, 0.8) 100%);
+}
+.li3
+{
+	box-shadow: 3px 0 2px 0 rgba(201, 25, 25, 0.8);
+	background: linear-gradient(to right, rgba(245, 90, 180, 0.6) 0%, rgba(201, 25, 25, 0.8) 100%);
+}
